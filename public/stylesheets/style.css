@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#quote{
+  font-family: 'Rock Salt', cursive;
+  font-size: 150%;
+  padding: 15%;
+  text-align: center;
+}
