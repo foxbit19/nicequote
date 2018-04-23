@@ -1,6 +1,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-y: hidden; 
+  overflow-x: hidden; 
 }
 
 a {
@@ -8,8 +10,37 @@ a {
 }
 
 #quote{
-  font-family: 'Rock Salt', cursive;
-  font-size: 150%;
-  padding: 15%;
+  font-size: 3vw;
+  padding: 5%;
   text-align: center;
+  word-spacing: 5px;
 }
+
+#quote span{
+  /* vertical-align: middle; */
+}
+
+.font1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.font2{
+  font-family: 'Gamja Flower', cursive;
+}
+
+.font3{
+  font-family: 'Lora', serif;
+}
+
+.font4{
+  font-family: 'Anton', sans-serif;
+}
+
+.font5{
+  font-family: 'Lobster', cursive;
+}
+
+.font6{
+  font-family: 'Amatic SC', cursive;
+}
+
