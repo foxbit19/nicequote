@@ -6,7 +6,37 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  /* color: #00B7FF; */
+}
+
+#header #title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3vh;
+  text-transform: lowercase;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  vertical-align: middle;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+#header #toolbar{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin: 20px;
+}
+
+#header #toolbar a{
+  color: white;
+}
+
+#header .fa{
+  font-size: 2vh;
+  margin-left: 20px;
 }
 
 #quote{
